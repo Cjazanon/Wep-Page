@@ -1,0 +1,490 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+.section-index{
+width: 100%;
+  height: 1200px;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.papa1{
+  margin: auto;
+  margin-top: 50px;
+width: 80%;
+height: 300px;
+background-color: #FBFCFC;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+display: flex;
+}
+.hijo1{
+width: 30%;
+height: 100%;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.perfil{
+  height: 240px;
+    width: 240px;
+    border: none;
+    border-radius: 200px;
+    margin:auto;
+    margin-top: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  background-image: url(../imagen/index/perfil22.jpg);
+  background-position: left;
+  background-size: cover;
+
+}
+
+.nombr{
+height: 20px;
+width: 100%;
+
+  margin-top: 5px;
+
+}
+.nombre{
+text-align: center;
+font-family: 'Quicksand', sans-serif ;
+color: black;
+font-size: 18px;
+
+}
+.hijo2{
+width: 70%;
+height: 100%;
+margin-left: 10px;
+}
+.socialmini{
+width: 33.3%;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.media{
+margin-top: 10px;
+height: 100%;
+width: 100%;
+
+flex-direction: row;
+justify-content: space-between;
+}
+
+.redes{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50%;
+
+}
+.media li{
+height: 75px;
+width: 75px;
+list-style: none;
+margin: auto;
+margin-left: 35%;
+display:inline-block;
+
+
+color: #fff;
+border: 1px solid #fff;
+border-radius: 50%;
+transition: .5s;
+}
+.media li:hover{
+color:#292929;
+border: 1px solid #118A92;
+transition: .5s;
+}
+.faceb{
+  width: 100%;
+  height: 100%;
+}
+h1{
+text-align: center;
+text-decoration: none;
+
+  font-size: 16px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#5F5F5F;
+
+
+
+
+}
+.correos{
+width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.escolar{
+width: 50%;
+height: 50%;
+margin-top: 10px;
+}
+
+.esco {
+text-align: left;
+font-size: 16px ;
+font-family: 'Roboto Condensed', sans-serif;
+color: #282828;
+padding-top: 16px;
+padding-left: 10px;
+}
+.personal{
+  width: 50%;
+  height: 50%;
+margin-top: 10px;
+}
+.perso {
+
+  padding-left: 10px;
+  text-align: left;
+  font-size: 16px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #282828;
+
+}
+
+.perso:hover{
+text-decoration: underline;
+color:#118A92;
+transition: .1s;
+}
+.esco:hover{
+text-decoration: underline;
+color:#118A92;
+transition: .1s;
+}
+@media only screen and (max-width:1024px){
+  .section-index{
+  width: 100%;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+.papa1{
+width: 80%;
+height: auto;
+display:flex;
+flex-direction: column;
+}
+.hijo1{
+width: 100%;
+height: 30%;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+flex-direction: column;
+
+}
+.perfil{
+height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 200px;
+  margin:auto;
+  margin-top: 10px;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.yo{
+height: 100%;
+  width: 100%;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 200px ;
+}
+.nombr{
+height: 33px;
+width: 100%;
+
+  margin-top: 5px;
+
+}
+.nombre{
+text-align: center;
+font-family: 'Quicksand', sans-serif ;
+color: black;
+font-size: 13px;
+
+}
+
+
+.hijo2{
+width: 100%;
+height: 70%;
+margin-top: 10px;
+margin-left: 0px;
+}
+.socialmini{
+width: 33.3%;
+height: auto;
+
+
+display: flex;
+flex-direction: row;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.media{
+width: 100%;
+height: 100%;
+
+
+margin-right: 40px;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.redes{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50%;
+
+}
+.media{
+width: auto;
+height: auto;
+  margin: auto;
+}
+.media li{
+height: 75px;
+width: 75px;
+list-style: none;
+margin: auto;
+display:inline-block;
+
+
+color: #fff;
+border: 1px solid #fff;
+border-radius: 50%;
+transition: .5s;
+}
+.media li:hover{
+color:#292929;
+border: 1px solid #118A92;
+transition: .5s;
+}
+.faceb{
+  width: 100%;
+  height: 100%;
+}
+h1{
+text-align: center;
+text-decoration: none;
+
+  font-size: 16px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#5F5F5F;
+
+
+
+
+}
+.correos{
+width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.escolar{
+width: 50%;
+height: 50%;
+margin-left: 10px;
+}
+
+.esco{
+text-align: left;
+font-size: 13px ;
+font-family: 'Roboto Condensed', sans-serif;
+color: #282828;
+
+}
+.personal{
+  width: 50%;
+  height: 50%;
+margin-top: 10px;
+margin-left: 10px;
+}
+.perso{
+
+  text-align: left;
+  font-size: 13px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #282828;
+
+}
+
+}
+@media only screen and (max-width:767px){
+  .section-index{
+  width: 100%;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+.papa1{
+width: 80%;
+height: auto;
+display:flex;
+flex-direction: column;
+}
+.hijo1{
+width: 100%;
+height: 30%;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+flex-direction: column;
+
+}
+.perfil{
+height: 220px;
+  width: 220px;
+  border: none;
+  border-radius: 200px;
+  margin:auto;
+  margin-top: 10px;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.yo{
+height: 100%;
+  width: 100%;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 200px ;
+}
+.nombr{
+height: 33px;
+width: 100%;
+
+  margin-top: 5px;
+
+}
+.nombre{
+text-align: center;
+font-family: 'Quicksand', sans-serif ;
+color: black;
+font-size: 13px;
+
+}
+.hijo2{
+width: 100%;
+height: 70%;
+margin-top: 10px;
+margin-left: 0px;
+}
+.socialmini{
+width: 33.3%;
+height: auto;
+
+
+display: flex;
+flex-direction: row;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.media{
+width: 100%;
+height: 100%;
+
+
+margin-right: 40px;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.redes{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50%;
+
+}
+.media{
+width: auto;
+height: auto;
+  margin: auto;
+}
+.media li{
+height: 75px;
+width: 75px;
+list-style: none;
+margin: auto;
+display:inline-block;
+
+
+color: #fff;
+border: 1px solid #fff;
+border-radius: 50%;
+transition: .5s;
+}
+.media li:hover{
+color:#292929;
+border: 1px solid #118A92;
+transition: .5s;
+}
+.faceb{
+  width: 100%;
+  height: 100%;
+}
+h1{
+text-align: center;
+text-decoration: none;
+
+  font-size: 16px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#5F5F5F;
+
+
+
+
+}
+.correos{
+width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.escolar{
+width: 50%;
+height: 50%;
+margin-left: 10px;
+}
+
+.esco{
+text-align: left;
+font-size: 13px ;
+font-family: 'Roboto Condensed', sans-serif;
+color: #282828;
+
+}
+.personal{
+  width: 50%;
+  height: 50%;
+margin-top: 10px;
+margin-left: 10px;
+}
+.perso{
+
+  text-align: left;
+  font-size: 13px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #282828;
+
+}
+
+}

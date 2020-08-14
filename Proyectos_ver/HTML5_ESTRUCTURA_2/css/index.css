@@ -1,0 +1,100 @@
+﻿/*propiedades generales*/
+*{
+    margin: 0px;/*QUITA EL MARGEN PREDETERMINADO*/
+    padding: 0px;/*QUITA EL PADDING PREDETERMINADO*/
+}
+/*LLAMAREMOS A NUESTRA SECCION QUE COMPONE LAS CAJAS*/
+.section-index{
+  display: -webkit-flex; /*HARA QUE LA PAGINA TENGA LA PROPIEDAD Y SE MUESTRE EN BASE A FLEX*/
+  display: -ms-flexbox;/*HARA QUE SE VUELVA PROOPIEDAD EN CAJA*/
+  display: flex;/*SE MOSTRARA UNO DEBAJO DEL OTRO*/
+  /* --ROW--> ORDENA DE IZQUIERDA A DERECHA*/
+  flex-direction: row;/*alinear hacia la derecha*/
+
+    width: 100%;/*TAMAÑO HORIZONTAL*/
+    height: 500px;/*TAMAÑO VERTICAL*/
+    margin: auto;/*margin de los cuatro lados*/
+    background-color: #615772;
+    justify-content: center;/*JUSTIFICAMOS EL CONTENIDO DESDE EL CENTRO*/
+}
+/*etiqueta*/
+.precio-1{
+    width: 300px;/*TAMAÑO HORIZONTAL*/
+    height: 350px;/*TAMAÑO VERTICAL*/
+    background-color: #fefbec;
+    margin-top: 75px;/*MARGEN QUE TENDRA DESDE ARRIBA*/
+    border-radius: 3px;/*TAMAÑO DEL BORDE REDONDEADO*/
+
+    display: -webkit-flex;/*llama a las galerias de google*/
+    display: -ms-flexbox;/*llama a las galerias de google*/
+    display: flex;/*flexibe a los tamaños de pantallas*/
+    /* --COLUMN--> ORDENA EN COLUMNAS*/
+    flex-direction: column;/*alinear en columna*/
+    text-align: center;/*ALINEARA EL TXTO DE LA CAJA AL CENTRO*/
+}
+/* LLAMAREMOS A LA ETIQUETA SEPARACION QUE ESTARA EN NUESTRO 2 DIV  */
+.separacion{
+    margin-left: 20px;/*MARGRN HACIA LA IZQUIERDA*/
+    margin-right: 20px;/*MARGRN HACIA LA DERECHA*/
+}
+/*LLAMAREMOS A LA ETIQUETA PRECIO QUE ESTA EN NUESTROS DIV*/
+.precio{
+    font-family: 'Roboto', sans-serif;/*LLAMAREMOS A LA DIRECCION DE FUENTE QUE AÑADIMOS EN EL INDEX*/
+    font-size: 60px;/*TAMAÑO DE LA FUENTE*/
+    color: grey;/*COLOR DEL TEXTO*/
+    margin-top: 10px;/*MARGEN HACIA ARRIBA*/
+}
+/* LLAMAREMOS A LA ETIQUETA PLAN DE NUESTROS DIVS */
+.plan{
+   font-family: 'Roboto', sans-serif;/*LLAMAREMOS A LA DIRECCION DE FUENTE QUE AÑADIMOS EN EL INDEX*/
+    font-size: 40px;/*TAMAÑO DE LA FUENTE*/
+    color: grey;color: grey;/*COLOR DEL TEXTO*/
+    margin-top: 25px;/*MARGEN HACIA ARRIBA*/
+}
+/* LLAMAREMOS A LA ETIQUETA TITULO QUE ESTA EN NUESTROS DIVS */
+.titulo{
+    font-family: 'Roboto', sans-serif;/*LLAMAREMOS A LA DIRECCION DE FUENTE QUE AÑADIMOS EN EL INDEX*/
+    font-size: 25px;/*TAMAÑO DE LA FUENTE*/
+    color: black;/*COLOR DEL TEXTO*/
+    margin-top: 25px;/*MARGEN HACIA ARRIBA*/
+}
+/* LLAMAREMOS A LA ETIQUETA DESCRIPSION QUE ESTARA EN NUESTROS DIVS */
+.descripcion{
+    font-family: 'Roboto', sans-serif;/*LLAMAREMOS A LA DIRECCION DE FUENTE QUE AÑADIMOS EN EL INDEX*/
+    font-size: 15px;/*TAMAÑO DE LA FUENTE*/
+    color: black;/*COLOR DEL TEXTO*/
+    margin-top: 15px;/*MARGEN HACIA ARRIBA*/
+}
+/* LLAMAREMOS A NUESTROS DIVS EN CONJUNTO DE  NUESTRO BOTON */
+.precio-1 a{
+    text-decoration: none; /*NO LE DARA SUBRAYADO AL TEXTO*/
+}
+/* LLAMAREMOS A LA ETIQUETA DEL BOTON DE NUESTROS DIVS */
+.bt{
+    background-color: #aeeae8;/*COLOR DE FONDO*/
+    padding-top: 15px;/* TAMAÑO DEL MARGEN DESDE ARRIBA DE LA CAJA AL TEXTO*/
+    padding-bottom: 15px;/*TAMAÑO DEL MARGEN DESDE ABAJO DE LA CAJA AL TEXTO*/
+    margin-top: 12px;/*MARGEN DESDE ARRIBA*/
+    border-radius: 3px;/*TAMAÑO DEL BORDE REDONDEADO*/
+
+    font-family: 'Roboto', sans-serif;/*LLAMAREMOS A LA DIRECCION DE FUENTE QUE AÑADIMOS EN EL INDEX*/
+    font-size: 25px;/*TAMAÑO DE LA FUENTE*/
+    color: white;/*COLOR DEL TEXTO*/
+}
+/* LLAMAREMOS A TODAS NUESTRAS CAJAS EMPEZANDO EN ORDEN EN BASE DEL CONTENEDOR TERMINANDO CON LA ETIQUETA QUE LE DARA SOMBRA */
+.section-index article:hover{
+  /* CODIGO DE LA SOMBRA QUE EMITIRA AL PASAR EL CURSO (ESTE REGULARMENTE SE COPIARA ENVEZ DE ESCRINIRLO A MANO) */
+    -webkit-box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.75);
+}
+
+/* PROPIEDAD QUE DIRA INSTRUCCIONES AL PASAR EL TAMAÑO ESTABLECIDO(SE UTILIZA PARA HACER EL RESPONSIVE) */
+@media only screen and (max-width:767px){
+/* DIREMOS QUE EL TMAÑO DE LA CAJA CONTENEDORA TENGA UN TAMAÑO HORIZONTAL ESTABLECIDO */
+    .section-index{
+        width: 100%;/*TAMAÑO HORIZONTAL*/
+    }
+
+/* CIERRE DE LA PROPIEDAD RESPONSIVE */
+}

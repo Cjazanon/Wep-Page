@@ -1,0 +1,30 @@
+/* norma general que tendra el elemento css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*LLAMAREMOS A LA ETIQUETA EN BASE AL ARCHIVO CSS*/
+header{
+    width: 100%;/*TAMAÑO HORIZONTAL*/
+    height: 200PX;/*TAMAÑO VERTICAL*/
+    background-color: #f38181;/*color de fondo*/
+}
+/* LLAMAREMOS A LA ETIQUETA DE NUESTRO TEXTO DEL ENCABEZAMIENTO */
+.titulo-de-la-pagina{
+    color: white;/*COLOR DE TEXTO*/
+    font-family: 'Roboto', sans-serif;/*LLAMAREMOS A LA DIRECCION DE FUENTE QUE AÑADIMOS EN EL INDEX*/
+    font-size: 30px;/*TAMAÑO DE LA FUENTE*/
+    text-align: center;/*CENTRAR EL TEXTO AL CENTRO*/
+    padding-top: 60px;/*MARGEN DESDE ARRIBA DE LA CAJA AL TEXTO*/
+}
+/* LLAMAREMOS A LA ETIQUETA DEL DIV CONTENEDOR DE NUESTROS ICONO O IMAGENES DEL ENCABEZAMIENTO */
+.redes-sociales{
+    width: 200px;/*TAMAÑO HORIZONTAL*/
+    height: 40px;/*TAMAÑO VERTICAL*/
+padding-top: 10px;/*MARGEN DESDE ARRIBA DE LA CAJA AL TEXTO*/
+    margin: auto;/*MARGEN AUTOMATICO*/
+}
+/* LLAMAREMOS A TODOS NUESTROS ICONOS O IMAGENES QUE ESTAN EN EL ENCABEZAMIENTO */
+.redes-sociales img{
+    width: 30px;/*TAMAÑO HORIZONTAL*/
+}

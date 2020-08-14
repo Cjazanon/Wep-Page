@@ -1,0 +1,17 @@
+/* norma general que tendra el elemento css */
+*{
+    margin: 0px;/*QUITA EL MARGEN PREDETERMINADO*/
+    padding: 0px;/*QUITA EL PADDING PREDETERMINADO*/
+}
+/* llamaremos a la etiqueta en cuestion en base al nombre de nuestro archivo css */
+footer{
+    display: -webkit-flex; /*HARA QUE LA PAGINA TENGA LA PROPIEDAD Y SE MUESTRE EN BASE A FLEX*/
+    display: -ms-flexbox;/*HARA QUE SE VUELVA PROOPIEDAD EN CAJA*/
+    display: flex;/*SE MOSTRARA UNO DEBAJO DEL OTRO*/
+    /* --ROW--> ORDENA DE IZQUIERDA A DERECHA*/
+    flex-direction: row;/*direciton en dorma de fila*/
+
+    width: 100%;/*TAMAÑO HORIZONTAL*/
+    height: 40px;/*TAMAÑO VERTICAL*/
+    background-color: coral; /*Color coral*/
+}

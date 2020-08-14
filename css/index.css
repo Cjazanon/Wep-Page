@@ -1,0 +1,644 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+.section-index{
+width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.papa{
+
+height: 40%;
+width: 21%;
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+background-color: white;
+border-radius: 1px;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+margin-left: 20px;
+
+}
+.hijo1{
+
+height: 100%;
+width: 100%;
+
+
+}
+
+.foto{
+  width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.primo1{
+width: 100%;
+  height: 250px;
+  border: 1px solid blue;
+  height: 220px;
+  width: 220px;
+  margin: auto;
+  border: none;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 200px;
+  background-image: url(../imagen/index/perfil22.jpg);
+  background-position: left;
+  background-size: cover;
+}
+
+
+.nombre{
+margin: auto;
+  width: 100%;
+  height: auto;
+}
+.nombretext{
+  font-family: 'Quicksand', sans-serif ;
+  color: black;
+  font-size: 19px;
+text-align: center;
+
+
+}
+.descripmi{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+
+}
+.yo{
+  font-family: 'Quicksand', sans-serif ;
+color: #5F5F5F;
+font-size: 16px;
+padding: 10px;
+text-align: center;
+}
+.socialmini{
+width: 100%;
+height: 100px;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+
+}
+
+  .media{
+    width: auto;
+    height: auto;
+    margin: auto;
+    display:  flex;
+  }
+
+
+.media li{
+height: 55px;
+width: 55px;
+list-style: none;
+margin-left: 40px;
+display:inline-block;
+font-size: 20px;
+
+color: #fff;
+border: 1px solid #fff;
+border-radius: 50%;
+transition: .5s;
+}
+
+.media li:hover{
+color:#292929;
+border: 1px solid #118A92;
+transition: .5s;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.faceb{
+  width: 100%;
+  height: 100%;
+}
+
+
+.papa2{
+
+height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+margin-top: 30px;
+background-color: white;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 1px;
+}
+.hijo2{
+
+  width: 100%;
+  height: 100%;
+
+}
+.imgprogra{
+width: 700px;
+height: 400px;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+border-radius: 3px;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.progra1{
+width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+.titulo1{
+
+height: 50px;
+width: 90%;
+margin-bottom: 10px;
+font-weight: bold;
+margin: auto;
+
+}
+
+
+.Titulo1{
+  font-family: 'Abel', sans-serif;
+  color: #2e6d93;
+  font-size: 39px;
+  padding-left: 70px;
+  text-align: center;
+font-size: 32px;
+  }
+
+.textprogra{
+width: 90%;
+height: auto;
+margin: auto;
+}
+.definiprogra{
+  font-family: 'Quicksand', sans-serif ;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+
+}
+.trabajoeneq{
+  width: 700px;
+  height: 400px;
+margin: auto;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2)
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.imagen2{
+width: 100%;
+height: 100%;
+  border-radius: 3px;
+}
+
+.Recomendacion{
+  height: 50px;
+  width: 90%;
+  font-weight: bold;
+  margin: auto;
+margin-top: 50px;
+}
+.recomiendo{
+  font-family: 'Abel', sans-serif;
+  color: #2e6d93;
+  font-size: 32px;
+  padding-left: 20px;
+  text-align: center;
+
+}
+
+
+.mirecomendacion{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.recomen{
+  font-family: 'Quicksand', sans-serif ;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+@media only screen and (max-width:1024px){
+  .section-index{
+  width: 100%;
+    height: auto;
+        z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .papa{
+
+  height: 60%;
+  width: 90%;
+  display: flex;
+margin: auto;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #FBFCFC;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+border-radius: 1px;
+
+  }
+
+  .nombre{
+  margin-right: 10px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+
+margin: auto;
+
+
+
+
+  }
+  .nombretext{
+    font-family: 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 25px;
+  padding-left: 9px;
+text-align: center;
+
+  }
+
+
+  .foto{
+    width: 100%;
+      height: 250px;
+  }
+
+  .primo1{
+  width: 100%;
+    height: 250px;
+    border: 1px solid blue;
+    height: 220px;
+    width: 220px;
+    margin: auto;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 200px;
+  }
+  .perfil{
+    height: 100%;
+    width:100%;
+  border-radius: 200px;
+  }
+
+  .nombretext{
+font-size: 20px;
+  }
+  .media{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .media li{
+  height: 60px;
+  width: 60px;
+  list-style: none;
+  margin: auto;
+  margin-left: 10px;
+  display:inline-block;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+
+  }
+
+  .media li:hover{
+  color:#292929;
+  border: 1px solid #118A92;
+  transition: .5s;
+  }
+
+  .papa2{
+
+  height: 100%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: column;
+border-radius: 1px;
+  background-color: #FBFCFC;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  .imgprogra{
+
+  width: 50%;
+  height: 200px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+margin: auto;
+margin-top: 20px;
+  }
+  .progra1{
+  width: 100%;
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  .titulo1{
+
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+
+
+  .Titulo1{
+    font-family: 'Abel', sans-serif;
+    color: #118A92;
+    font-size: 23px;
+padding-left: 5px;
+    text-align: center;
+margin-top: 20px;
+    }
+
+  .textprogra{
+
+  width: 90%;
+  height: auto;
+margin: auto;
+margin-top: 20px;
+  }
+
+  .definiprogra{
+    font-family: 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+  padding-left: 1px;
+
+  }
+  .trabajoeneq{
+    width: 50%;
+    height: 200px;
+    margin:auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+
+  }
+.imagen2{
+width: 100%;
+height: 100%;
+
+}
+
+
+  .Recomendacion{
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+  }
+  .recomiendo{
+    font-family: 'Abel', sans-serif;
+    color: #118A92;
+    font-size: 23px;
+padding-left: 5px;
+    text-align: center;
+  }
+
+
+  .mirecomendacion{
+    width: 90%;
+    height: auto;
+  }
+  .recomen{
+    font-family: 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+
+  }
+
+
+
+}
+
+@media only screen and (max-width:767px){
+  .section-index{
+  width: 100%;
+    height: auto;
+        z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .papa{
+
+  height: 60%;
+  width: 90%;
+  display: flex;
+margin: auto;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #FBFCFC;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+
+border-radius: 1px;
+  }
+
+  .nombre{
+  margin-right: 10px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+
+margin: auto;
+
+
+
+
+  }
+  .nombretext{
+    font-family: 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 25px;
+  padding-left: 9px;
+text-align: center;
+
+  }
+
+
+  .foto{
+    width: 100%;
+      height: 250px;
+  }
+
+  .primo1{
+  width: 100%;
+    height: 250px;
+    border: 1px solid blue;
+    height: 220px;
+    width: 220px;
+    margin: auto;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 200px;
+  }
+  .perfil{
+    height: 100%;
+    width:100%;
+  border-radius: 200px;
+  }
+
+  .nombretext{
+font-size: 20px;
+  }
+  .media{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .media li{
+  height: 60px;
+  width: 60px;
+  list-style: none;
+  margin: auto;
+  margin-left: 10px;
+  display:inline-block;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+
+  }
+
+  .media li:hover{
+  color:#292929;
+  border: 1px solid #118A92;
+  transition: .5s;
+  }
+
+  .papa2{
+
+  height: 100%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: column;
+border-radius: 1px;
+  background-color: #FBFCFC;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  .imgprogra{
+
+  width: 80%;
+  height: 200px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+margin: auto;
+margin-top: 20px;
+  }
+  .progra1{
+  width: 100%;
+    height: 100%;
+    border-radius: 3px;
+  }
+
+  .titulo1{
+
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+
+
+  .Titulo1{
+    font-family: 'Abel', sans-serif;
+    color: #2e6d93;
+    font-size: 23px;
+padding-left: 5px;
+    text-align: center;
+margin-top: 20px;
+    }
+
+  .textprogra{
+
+  width: 90%;
+  height: auto;
+margin: auto;
+margin-top: 20px;
+  }
+
+  .definiprogra{
+    font-family: 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+  padding-left: 1px;
+
+  }
+  .trabajoeneq{
+    width: 80%;
+    height: 200px;
+    margin:auto;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+
+  }
+.imagen2{
+width: 100%;
+height: 100%;
+
+}
+
+
+  .Recomendacion{
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+  }
+  .recomiendo{
+    font-family: 'Abel', sans-serif;
+    color: #2e6d93;
+    font-size: 23px;
+padding-left: 5px;
+    text-align: center;
+  }
+
+
+  .mirecomendacion{
+    width: 90%;
+    height: auto;
+  }
+  .recomen{
+    font-family: 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+
+  }
+
+
+
+}
